@@ -53,6 +53,11 @@ export default function SignupForm() {
             <p className='text-red-500 text-sm'>{state.errors.password}</p>
           )}
         </div>
+        <div className=''>
+          {state?.message && (
+            <p className='text-red-500 text-sm'>{state.message}</p>
+          )}
+        </div>
         <SubmitButton />
       </form>
     </div>
