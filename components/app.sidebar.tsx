@@ -41,7 +41,7 @@ export default function AppSidebar({
                     >
                       <Link href={item.link}>
                         <item.icon />
-                        <span>{item.title}</span>
+                        <span className='font-noto text-base sm:text-md'>{item.title}</span>
                       </Link>
                     </SidebarMenuButton>
                   </SidebarMenuItem>

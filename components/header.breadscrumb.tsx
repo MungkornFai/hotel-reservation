@@ -22,7 +22,7 @@ export default function HeaderBreadscrumb() {
           const href = `${segments.slice(0, idx + 1).join('/')}`;
           const isLast = idx === segments.length - 1;
           return (
-            <BreadcrumbItem key={href}>
+            <BreadcrumbItem key={href} className='font-sans'>
               {isLast ? (
                 <BreadcrumbPage>{segment}</BreadcrumbPage>
               ) : (

@@ -1,4 +1,4 @@
-import { Home, LucideIcon,Bed,Library,Book,DollarSign } from 'lucide-react';
+import { Home, LucideIcon, Bed, Library, Book, DollarSign } from 'lucide-react';
 
 export interface SidebarDataProps {
   id: number;
@@ -10,31 +10,31 @@ export interface SidebarDataProps {
 export const sidebarData: SidebarDataProps[] = [
   {
     id: 1,
-    title: 'Home',
+    title: 'ໜ້າຫຼັກ',
     icon: Home,
     link: '/dashboard',
   },
   {
     id: 2,
-    title: 'Room category',
+    title: 'ຈັດການປະເພດຫ້ອງ',
     icon: Library,
     link: '/dashboard/room/category',
   },
   {
     id: 3,
-    title: 'Room',
+    title: 'ຈັດການຫ້ອງ',
     icon: Bed,
     link: '/dashboard/room',
   },
   {
     id: 4,
-    title: 'booking',
+    title: 'ຈັດການຈັອງຫ້ອງ',
     icon: Book,
     link: '/dashboard/booking',
   },
   {
     id: 5,
-    title: 'payment',
+    title: 'ຈັດການການຈ່າຍເງິນ',
     icon: DollarSign,
     link: '/dashboard/payment',
   },
