@@ -24,7 +24,7 @@ export const sidebarData: SidebarDataProps[] = [
     id: 3,
     title: 'ຈັດການຫ້ອງ',
     icon: Bed,
-    link: '/dashboard/room',
+    link: '/dashboard/room/creating',
   },
   {
     id: 4,
